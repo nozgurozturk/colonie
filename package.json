@@ -11,17 +11,13 @@
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
-    "styled-components": "^4.3.2",
-    "typescript": "3.6.2"
+    "styled-components": "^4.3.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -34,5 +30,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tslint": "^5.19.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.6.2",
+    "typescript-tslint-plugin": "^0.5.4"
   }
 }
